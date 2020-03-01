@@ -50,9 +50,10 @@ namespace calculator
             {
                 decimal wynik = pierwsza / druga;
                 textBox1.Text = wynik.ToString();
-            }catch(DivideByZeroException)
+            }
+            catch(DivideByZeroException)
             {
-                MessageBox.Show("BŁĄD");
+                MessageBox.Show("ERROR");
             }
             //if(druga!= 0)
             //{
@@ -61,7 +62,7 @@ namespace calculator
             //}
             //else
             //{
-            //    MessageBox.Show("BŁĄD");
+            //    MessageBox.Show("ERROR");
             //}
 
         }
@@ -81,7 +82,7 @@ namespace calculator
             }
             catch
             {
-                MessageBox.Show("BŁĄD");
+                MessageBox.Show("ERROR");
             }
         }
     }

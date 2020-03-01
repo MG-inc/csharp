@@ -26,3 +26,12 @@ D:\Polski\kalkulator\calculator\obj\Debug\calculator.Properties.Resources.resour
 D:\Polski\kalkulator\calculator\obj\Debug\calculator.csproj.GenerateResource.cache
 D:\Polski\kalkulator\calculator\obj\Debug\calculator.exe
 D:\Polski\kalkulator\calculator\obj\Debug\calculator.pdb
+D:\English\Calculator\calculator\bin\Debug\calculator.exe.config
+D:\English\Calculator\calculator\bin\Debug\calculator.exe
+D:\English\Calculator\calculator\bin\Debug\calculator.pdb
+D:\English\Calculator\calculator\obj\Debug\calculator.csprojAssemblyReference.cache
+D:\English\Calculator\calculator\obj\Debug\calculator.Form1.resources
+D:\English\Calculator\calculator\obj\Debug\calculator.Properties.Resources.resources
+D:\English\Calculator\calculator\obj\Debug\calculator.csproj.GenerateResource.cache
+D:\English\Calculator\calculator\obj\Debug\calculator.exe
+D:\English\Calculator\calculator\obj\Debug\calculator.pdb

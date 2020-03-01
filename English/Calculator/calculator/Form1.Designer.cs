@@ -45,26 +45,26 @@
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(66, 35);
+            this.numericUpDown1.Location = new System.Drawing.Point(89, 35);
             this.numericUpDown1.Maximum = new decimal(new int[] {
             1215752192,
             23,
             0,
             0});
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(200, 20);
+            this.numericUpDown1.Size = new System.Drawing.Size(177, 20);
             this.numericUpDown1.TabIndex = 0;
             // 
             // numericUpDown2
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(66, 91);
+            this.numericUpDown2.Location = new System.Drawing.Point(89, 91);
             this.numericUpDown2.Maximum = new decimal(new int[] {
             1215752192,
             23,
             0,
             0});
             this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(200, 20);
+            this.numericUpDown2.Size = new System.Drawing.Size(177, 20);
             this.numericUpDown2.TabIndex = 1;
             // 
             // label1
@@ -72,18 +72,18 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(5, 37);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(48, 13);
+            this.label1.Size = new System.Drawing.Size(66, 13);
             this.label1.TabIndex = 2;
-            this.label1.Text = "pierwsza";
+            this.label1.Text = "First Number";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(5, 93);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(34, 13);
+            this.label2.Size = new System.Drawing.Size(84, 13);
             this.label2.TabIndex = 3;
-            this.label2.Text = "druga";
+            this.label2.Text = "Second Number";
             // 
             // Dodaj
             // 
@@ -91,7 +91,7 @@
             this.Dodaj.Name = "Dodaj";
             this.Dodaj.Size = new System.Drawing.Size(75, 23);
             this.Dodaj.TabIndex = 4;
-            this.Dodaj.Text = "Dodać";
+            this.Dodaj.Text = "Add";
             this.Dodaj.UseVisualStyleBackColor = true;
             this.Dodaj.Click += new System.EventHandler(this.Dodaj_Click);
             // 
@@ -99,9 +99,9 @@
             // 
             this.Odejmnij.Location = new System.Drawing.Point(100, 138);
             this.Odejmnij.Name = "Odejmnij";
-            this.Odejmnij.Size = new System.Drawing.Size(75, 23);
+            this.Odejmnij.Size = new System.Drawing.Size(85, 23);
             this.Odejmnij.TabIndex = 5;
-            this.Odejmnij.Text = "Odjąć";
+            this.Odejmnij.Text = "Subtracted By";
             this.Odejmnij.UseVisualStyleBackColor = true;
             this.Odejmnij.Click += new System.EventHandler(this.Odejmnij_Click);
             // 
@@ -111,7 +111,7 @@
             this.Pomnóż.Name = "Pomnóż";
             this.Pomnóż.Size = new System.Drawing.Size(75, 23);
             this.Pomnóż.TabIndex = 6;
-            this.Pomnóż.Text = "Pomnóż";
+            this.Pomnóż.Text = "Times";
             this.Pomnóż.UseVisualStyleBackColor = true;
             this.Pomnóż.Click += new System.EventHandler(this.Pomnóż_Click);
             // 
@@ -119,9 +119,9 @@
             // 
             this.Podziel.Location = new System.Drawing.Point(100, 191);
             this.Podziel.Name = "Podziel";
-            this.Podziel.Size = new System.Drawing.Size(89, 23);
+            this.Podziel.Size = new System.Drawing.Size(75, 23);
             this.Podziel.TabIndex = 7;
-            this.Podziel.Text = "Podzielić przez";
+            this.Podziel.Text = "Divided By";
             this.Podziel.UseVisualStyleBackColor = true;
             this.Podziel.Click += new System.EventHandler(this.Podziel_Click);
             // 
@@ -137,17 +137,17 @@
             this.Wynik.AutoSize = true;
             this.Wynik.Location = new System.Drawing.Point(18, 243);
             this.Wynik.Name = "Wynik";
-            this.Wynik.Size = new System.Drawing.Size(37, 13);
+            this.Wynik.Size = new System.Drawing.Size(39, 13);
             this.Wynik.TabIndex = 9;
-            this.Wynik.Text = "Wynik";
+            this.Wynik.Text = "Equals";
             // 
             // potega
             // 
             this.potega.Location = new System.Drawing.Point(191, 138);
             this.potega.Name = "potega";
-            this.potega.Size = new System.Drawing.Size(75, 23);
+            this.potega.Size = new System.Drawing.Size(99, 23);
             this.potega.TabIndex = 10;
-            this.potega.Text = "Do Potęgi";
+            this.potega.Text = "To The Power Of";
             this.potega.UseVisualStyleBackColor = true;
             this.potega.Click += new System.EventHandler(this.Potega_Click);
             // 
@@ -155,7 +155,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(302, 307);
+            this.ClientSize = new System.Drawing.Size(291, 328);
             this.Controls.Add(this.potega);
             this.Controls.Add(this.Wynik);
             this.Controls.Add(this.textBox1);
